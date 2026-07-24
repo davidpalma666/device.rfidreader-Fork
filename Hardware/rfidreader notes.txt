@@ -1,0 +1,19 @@
+
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+*  @22 Julho 2026
+
+
+- traduzir a versão actual a esta data (qual??) para Kicad
+	. a versão actual é mesmo a v1.2 - é, a board do Filipe é v.1.2
+
+- há 2 tipos de antena
+	uma menor com rail de power & UI @3V#		OK
+	uma antena maior, maior ganho & mais sensível com rail de power & UI @5V		OK???
+- perceber se se justifica ter novas alimentações 
+	. rails 5V antena & 3V3 u
+	. módulo de tradução no andar comm antena-u: 
+		. só com divisor resistivo ou buffers a fazer a tradução
+		
+
