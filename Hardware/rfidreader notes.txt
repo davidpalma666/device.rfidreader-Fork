@@ -1,6 +1,49 @@
 
 
 
+
+
+
+
+
+
+
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+*  @27 Julho 2026
+
+
+> corrente de buzzer medida em diferentes condições:
+	- 	PBC		30mA
+	-	PCB + ID12		45mA	=>	15mA buzzer @5V
+	- 	PCB + ID20		41mA	=>	11mA buzzer @5V
+	
+	- PCB + ID12 + buzzer	=>	
+	- PCB + ID20 + buzzer	=>	90mA
+
+
+
+>> colocar apenas 
+	LDO regulável
+	buffers de level translation
+	R0: paralelo com IOs buffers & LDO para não sendo necessário fica apenas R0
+	
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+*  @24 Julho 2026
+
+- tradução do Eagle completa
+- já com USBc
+- acrescentar buffers protecção USB-c
+- acrescentar buffers de level translation antena-to-micro
+
+
+
+
+
+
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 *  @22 Julho 2026
 
@@ -17,3 +60,19 @@
 		. só com divisor resistivo ou buffers a fazer a tradução
 		
 
+741G126DBVAHC
+
+Error: Cannot add OSC1 (footprint 'harp rfid reader:CNP-MISCELLANEOUS_OSCILLATOR_3.2X2.5' not found).
+Error: Cannot add J1 (no footprint assigned).
+Error: Cannot add J2 (footprint 'harp rfid reader:MA03-2' not found).
+Error: Cannot add OUT0 (footprint 'harp rfid reader:22-23-2021' not found).
+Error: Cannot add C20 (footprint 'harp rfid reader:CT3216' not found).
+Error: Cannot add SP1 (footprint 'harp rfid reader:BUZZER-COIL_SMT-0540-S-R' not found).
+Error: Cannot add Q1 (footprint 'harp rfid reader:SOT323-BEC' not found).
+Error: Cannot add U1 (footprint 'harp rfid reader:ID-12_SMD' not found).
+Error: Cannot add IC4 (footprint 'harp rfid reader:SOT23-5' not found).
+Error: Cannot add C19 (footprint 'harp rfid reader:CT3216' not found).
+
+OEPS060004	MOSFET P-CH 60V 1.7A	SOT-223	SMD	NTF2955T1G	3	DigiKey	NTF2955T1GOSDKR-ND			TRANSISTOR:   MOSFET P-CH 60V 1.7A   [NTF2955T1G] [SOT-223]																
+
+TRANSISTOR:   MOSFET P-CH 60V 1.7A   [NTF2955T1G] [SOT-223]	OEPS060004	SMD	NTF2955T1G	3	DigiKey	NTF2955T1GOSDKR-ND								
