@@ -4,11 +4,18 @@
 
 
 
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+*  @19 Outubro 2026
+
+>> os q há na OEPS Component List - é algum destes a usar??
+	OEPS100013	RFID Reader ID-12LA (125 kHz)	TH	ID-12LA	0	Sparkfun	SEN-11827
+	OEPS100014	RFID Reader ID-20LA (125 kHz)	TH	ID-20LA	0	Sparkfun	SEN-11828
+
+>> no projecto
+	OTHER:   RFID Reader ID-12LA (125 kHz)   [ID-12LA] [TH]
 
 
-
-
-
+>> FAZER FINE TUNNIG PARA O ldo AJUSTÁVEL !!!!!!!!!!!!!!!!!!!!!!!!!
 
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 *  @27 Julho 2026
@@ -30,7 +37,7 @@
 	R0: paralelo com IOs buffers & LDO para não sendo necessário fica apenas R0
 	
 
-
+r
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 *  @24 Julho 2026
 

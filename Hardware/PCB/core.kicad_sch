@@ -6,6 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "harp RFID reader")
+		(rev "1.4")
 		(company "OEPS")
 	)
 	(lib_symbols
@@ -4534,7 +4535,7 @@
 		(uuid "f4aca068-cfcc-4f56-aa14-9b9b04686b7d")
 	)
 	(junction
-		(at 175.26 125.73)
+		(at 166.37 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d558ab2-f065-4bc2-b32d-253a4845a84a")
@@ -4576,12 +4577,6 @@
 		(uuid "7c4d6d19-341a-4f85-acd8-1e1f4e52f629")
 	)
 	(junction
-		(at 186.69 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "89b5cf0d-3425-45dc-b366-cac54594f8bc")
-	)
-	(junction
 		(at 161.29 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4604,6 +4599,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "91794da3-2cfa-42a2-bb5c-d81091d8b2dd")
+	)
+	(junction
+		(at 186.69 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2fae22c-023f-42c8-b47e-17b630c7f540")
 	)
 	(junction
 		(at 190.5 45.72)
@@ -4636,12 +4637,6 @@
 		(uuid "e321c090-25e3-444d-b991-c56efea15191")
 	)
 	(junction
-		(at 199.39 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e3ac88f2-303c-4c96-80ac-37052d9804dc")
-	)
-	(junction
 		(at 26.67 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4652,6 +4647,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed36f448-62d1-4658-a0b5-56c2a7b636ea")
+	)
+	(junction
+		(at 199.39 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8e39b49-f1d1-4ea2-83dc-584e396805c2")
 	)
 	(junction
 		(at 45.72 152.4)
@@ -4696,16 +4697,6 @@
 			(type default)
 		)
 		(uuid "0d4902ed-927a-4134-a5b9-e1a32b03db04")
-	)
-	(wire
-		(pts
-			(xy 209.55 144.78) (xy 199.39 144.78)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "0d55fd6d-1555-4666-b74d-2df7315a69d1")
 	)
 	(wire
 		(pts
@@ -4819,7 +4810,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 33.02) (xy 195.58 45.72)
+			(xy 195.58 63.5) (xy 195.58 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4839,7 +4830,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 123.19) (xy 175.26 125.73)
+			(xy 166.37 125.73) (xy 166.37 128.27)
 		)
 		(stroke
 			(width 0)
@@ -4879,16 +4870,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 125.73) (xy 181.61 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "424fa8c6-75ae-4662-bcf3-30004292331d")
-	)
-	(wire
-		(pts
 			(xy 160.02 45.72) (xy 157.48 45.72)
 		)
 		(stroke
@@ -4919,23 +4900,13 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 77.47) (xy 199.39 91.44)
+			(xy 199.39 109.22) (xy 199.39 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "488e2564-3aa3-40a3-b51c-6f1558a6af35")
-	)
-	(wire
-		(pts
-			(xy 207.01 147.32) (xy 207.01 149.86)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "4a523272-aabe-4214-b13a-6cc022b17cae")
 	)
 	(wire
 		(pts
@@ -4949,7 +4920,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 77.47) (xy 199.39 77.47)
+			(xy 172.72 109.22) (xy 199.39 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4966,6 +4937,26 @@
 			(type solid)
 		)
 		(uuid "530c47bd-1a55-4f0d-ab0e-f2dd479ae18a")
+	)
+	(wire
+		(pts
+			(xy 199.39 144.78) (xy 209.55 144.78)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5445952d-c1af-4b8e-af85-4f3c51c4ec09")
+	)
+	(wire
+		(pts
+			(xy 181.61 156.21) (xy 181.61 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55c76e4e-4a84-460a-a2b9-e001ec394052")
 	)
 	(wire
 		(pts
@@ -5009,7 +5000,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 33.02) (xy 160.02 45.72)
+			(xy 160.02 63.5) (xy 160.02 45.72)
 		)
 		(stroke
 			(width 0)
@@ -5039,7 +5030,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 33.02) (xy 160.02 33.02)
+			(xy 165.1 63.5) (xy 160.02 63.5)
 		)
 		(stroke
 			(width 0)
@@ -5269,16 +5260,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 132.08) (xy 190.5 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "896d5d6a-4895-4a8b-8151-f4353c8fae14")
-	)
-	(wire
-		(pts
 			(xy 49.53 27.94) (xy 49.53 25.4)
 		)
 		(stroke
@@ -5339,7 +5320,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 91.44) (xy 204.47 91.44)
+			(xy 199.39 91.44) (xy 209.55 91.44)
 		)
 		(stroke
 			(width 0.1524)
@@ -5419,7 +5400,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 125.73) (xy 175.26 128.27)
+			(xy 166.37 128.27) (xy 166.37 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5439,7 +5420,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 132.08) (xy 190.5 132.08)
+			(xy 186.69 134.62) (xy 190.5 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5519,7 +5500,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 33.02) (xy 195.58 33.02)
+			(xy 172.72 63.5) (xy 195.58 63.5)
 		)
 		(stroke
 			(width 0)
@@ -5589,7 +5570,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 77.47) (xy 161.29 91.44)
+			(xy 161.29 109.22) (xy 161.29 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5739,7 +5720,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 144.78) (xy 165.1 144.78)
+			(xy 160.02 144.78) (xy 171.45 144.78)
 		)
 		(stroke
 			(width 0.1524)
@@ -5779,23 +5760,13 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 77.47) (xy 161.29 77.47)
+			(xy 165.1 109.22) (xy 161.29 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d270e919-f4d3-4bad-a175-7282f139cba7")
-	)
-	(wire
-		(pts
-			(xy 186.69 132.08) (xy 186.69 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d369ac80-040e-44d3-b353-83805dcf9cab")
 	)
 	(wire
 		(pts
@@ -5839,6 +5810,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 128.27) (xy 181.61 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcb85093-2cc8-4a0c-8da4-9c512e656233")
+	)
+	(wire
+		(pts
 			(xy 109.22 25.4) (xy 116.84 25.4)
 		)
 		(stroke
@@ -5859,7 +5840,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 125.73) (xy 175.26 125.73)
+			(xy 166.37 128.27) (xy 181.61 128.27)
 		)
 		(stroke
 			(width 0)
@@ -5956,16 +5937,6 @@
 			(type default)
 		)
 		(uuid "f6a168a1-4573-4c15-bf13-05b3f83c4289")
-	)
-	(wire
-		(pts
-			(xy 186.69 74.93) (xy 186.69 76.2)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "f7b45fc5-d7de-4951-9eeb-10223a7b6a0e")
 	)
 	(wire
 		(pts
@@ -6118,7 +6089,7 @@
 		(uuid "45f2a640-4953-4aad-8d6f-2d0cbd41250b")
 	)
 	(label "F2"
-		(at 204.47 91.44 0)
+		(at 209.55 91.44 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -6218,7 +6189,7 @@
 		(uuid "c7f2c11f-007a-40af-a285-8762a0a07ecf")
 	)
 	(label "OUT0"
-		(at 165.1 144.78 0)
+		(at 160.02 144.78 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -6409,7 +6380,7 @@
 				)
 			)
 		)
-		(property "Description" "BUZZER MAGNETIC 3V 5X5MM SMD"
+		(property "Description" "OTHER:   BUZZER MAGNETIC 3V 5X5MM SMD   [SMT-0540-S-R] [SMD]"
 			(at 68.58 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -6431,7 +6402,29 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS100012"
+		(property "LCSC" ""
+			(at 68.58 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS Description" "OTHER:   BUZZER MAGNETIC 3V 5X5MM SMD   [SMT-0540-S-R] [SMD]"
+			(at 68.58 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS PN" "OEPS100012"
 			(at 68.58 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -6449,7 +6442,7 @@
 			(uuid "5c6c1f88-ae61-4f8a-8efb-6757301cf4ab")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "SP1")
 					(unit 1)
@@ -6527,7 +6520,7 @@
 			(uuid "ab03e3f8-59cd-4fb6-be32-c026971fdfe4")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND033")
 					(unit 1)
@@ -6605,7 +6598,7 @@
 			(uuid "232f691b-c3d6-4295-8fa5-d19c295c5b27")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND027")
 					(unit 1)
@@ -6684,7 +6677,7 @@
 			(uuid "f9cfbdc7-dec7-4411-9ffa-97856a69635c")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND9")
 					(unit 1)
@@ -6762,7 +6755,7 @@
 			(uuid "66da175e-f36b-4b11-98d6-ff51ace8f516")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND029")
 					(unit 1)
@@ -6840,7 +6833,7 @@
 			(uuid "ca3a19e2-be54-4a5b-b84d-b868bab406a3")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#P+012")
 					(unit 1)
@@ -6850,7 +6843,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 167.64 77.47 90)
+		(at 168.91 109.22 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -6859,10 +6852,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
-		(fields_autoplaced yes)
 		(uuid "173d95d0-b23c-4c60-968c-d078ea7847c0")
 		(property "Reference" "R15"
-			(at 167.64 69.85 90)
+			(at 164.592 105.664 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6872,7 +6864,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 167.64 73.66 90)
+			(at 168.91 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6882,7 +6874,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 167.64 77.47 0)
+			(at 168.91 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6893,7 +6885,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 77.47 0)
+			(at 168.91 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6903,8 +6895,8 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 0Ω 1A"
-			(at 167.64 77.47 0)
+		(property "Description" "DNP"
+			(at 168.91 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6914,8 +6906,8 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402JR-070RL"
-			(at 167.64 77.47 0)
+		(property "MPN" "DNP"
+			(at 168.91 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6926,19 +6918,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "OEPSPN" "OEPS020001"
-			(at 167.64 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "TempCo" ""
-			(at 167.64 77.47 0)
+			(at 168.91 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6948,8 +6929,8 @@
 				)
 			)
 		)
-		(property "Tolerance" ""
-			(at 167.64 77.47 0)
+		(property "Tolerance" "±0.1%"
+			(at 168.91 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6960,7 +6941,40 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 167.64 77.47 0)
+			(at 168.91 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 168.91 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS Description" "DNP: Do Not Populate (DNI)"
+			(at 168.91 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS PN" "OEPS000000"
+			(at 168.91 109.22 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6977,7 +6991,7 @@
 			(uuid "f886a616-195a-452e-8764-2621c4498ba6")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "R15")
 					(unit 1)
@@ -7007,7 +7021,7 @@
 			)
 		)
 		(property "Value" "SN74LVC1G125DBVT"
-			(at 186.69 152.654 0)
+			(at 187.452 152.146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7039,7 +7053,7 @@
 				)
 			)
 		)
-		(property "Description" "BUFFER NON-INVERT 1CH 3-STATE"
+		(property "Description" "IC:   BUFFER NON-INVERT 1CH 3-STATE   [SN74LVC1G125DBVT] [SOT-23-5]"
 			(at 186.69 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -7060,17 +7074,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "OEPSPN" "OEPS080029"
-			(at 186.69 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "TempCo" ""
@@ -7106,6 +7109,39 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 186.69 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS Description" "IC:   BUFFER NON-INVERT 1CH 3-STATE   [SN74LVC1G125DBVT] [SOT-23-5]"
+			(at 186.69 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS PN" "OEPS080029"
+			(at 186.69 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "54c6a2db-2355-428a-8d46-fffcd42812a8")
 		)
@@ -7122,7 +7158,7 @@
 			(uuid "5c11b461-5dfc-414c-8ee2-c0057922caae")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "IC4")
 					(unit 1)
@@ -7200,7 +7236,7 @@
 			(uuid "2d91592e-52f4-44dd-b94e-c15abe7843bc")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND041")
 					(unit 1)
@@ -7263,7 +7299,7 @@
 				)
 			)
 		)
-		(property "Description" "HEADER 2.54MM straight 2x3POS"
+		(property "Description" "CONNECTOR:   HEADER 2.54MM straight 2x3POS   [67996-206HLF] [TH]"
 			(at 58.42 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -7285,7 +7321,29 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS070015"
+		(property "LCSC" ""
+			(at 58.42 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS Description" "CONNECTOR:   HEADER 2.54MM straight 2x3POS   [67996-206HLF] [TH]"
+			(at 58.42 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS PN" "OEPS070015"
 			(at 58.42 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -7315,7 +7373,7 @@
 			(uuid "5aa3cb82-1916-4d59-8a48-b0834be9af48")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "PDI0")
 					(unit 1)
@@ -7325,7 +7383,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 166.37 33.02 90)
+		(at 168.91 63.5 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -7337,7 +7395,7 @@
 		(fields_autoplaced yes)
 		(uuid "21ba6ce7-03b8-4407-ad30-1e49ce3bcae4")
 		(property "Reference" "R14"
-			(at 166.37 25.4 90)
+			(at 168.91 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7347,7 +7405,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 166.37 29.21 90)
+			(at 168.91 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7357,7 +7415,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 166.37 33.02 0)
+			(at 168.91 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7368,7 +7426,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 33.02 0)
+			(at 168.91 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7378,8 +7436,8 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 0Ω 1A"
-			(at 166.37 33.02 0)
+		(property "Description" "DNP"
+			(at 168.91 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7389,8 +7447,8 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402JR-070RL"
-			(at 166.37 33.02 0)
+		(property "MPN" "DNP"
+			(at 168.91 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7401,19 +7459,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "OEPSPN" "OEPS020001"
-			(at 166.37 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "TempCo" ""
-			(at 166.37 33.02 0)
+			(at 168.91 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7423,8 +7470,8 @@
 				)
 			)
 		)
-		(property "Tolerance" ""
-			(at 166.37 33.02 0)
+		(property "Tolerance" "±0.1%"
+			(at 168.91 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7435,7 +7482,40 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 166.37 33.02 0)
+			(at 168.91 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 168.91 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS Description" "DNP: Do Not Populate (DNI)"
+			(at 168.91 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS PN" "OEPS000000"
+			(at 168.91 63.5 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7452,7 +7532,7 @@
 			(uuid "2f52da21-880c-49cd-a2c9-72d53935176d")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "R14")
 					(unit 1)
@@ -7531,7 +7611,7 @@
 			(uuid "06f38702-1be5-4a51-b305-b251d9b08d6c")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND17")
 					(unit 1)
@@ -7595,7 +7675,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 1kΩ ±1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 1kΩ ±1% 0.063W   [CRCW04021K00FKED] [SMD]"
 			(at 110.49 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -7617,7 +7697,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS020027"
+		(property "Tolerance" "±1%"
 			(at 110.49 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -7628,7 +7708,29 @@
 				)
 			)
 		)
-		(property "Tolerance" "±1%"
+		(property "LCSC" ""
+			(at 110.49 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS Description" "RESISTOR:   SMD 0402 1kΩ ±1% 0.063W   [CRCW04021K00FKED] [SMD]"
+			(at 110.49 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS PN" "OEPS020027"
 			(at 110.49 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -7646,7 +7748,7 @@
 			(uuid "b0dbf479-ec24-4eae-ba83-c8c29d9f110e")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "R4")
 					(unit 1)
@@ -7709,7 +7811,7 @@
 				)
 			)
 		)
-		(property "Description" "BUFFER NON-INVERT 1CH 3-STATE"
+		(property "Description" "IC:   BUFFER NON-INVERT 1CH 3-STATE   [SN74LVC1G125DBVT] [SOT-23-5]"
 			(at 175.26 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -7730,17 +7832,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "OEPSPN" "OEPS080029"
-			(at 175.26 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "TempCo" ""
@@ -7776,6 +7867,39 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 175.26 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS Description" "IC:   BUFFER NON-INVERT 1CH 3-STATE   [SN74LVC1G125DBVT] [SOT-23-5]"
+			(at 175.26 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS PN" "OEPS080029"
+			(at 175.26 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "24588a4c-6eaa-4c8a-ba20-ad219f75d261")
 		)
@@ -7792,7 +7916,7 @@
 			(uuid "06dd7f8f-e7ed-4362-8466-f9991bdbda78")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "IC10")
 					(unit 1)
@@ -7856,7 +7980,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 186.69 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -7877,17 +8001,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "OEPSPN" "OEPS010016"
-			(at 186.69 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "TempCo" "X7R"
@@ -7923,6 +8036,39 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 186.69 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
+			(at 186.69 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS PN" "OEPS010016"
+			(at 186.69 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f7aeabc9-5069-476f-8f8e-aff9d6bdc2ec")
 		)
@@ -7930,7 +8076,7 @@
 			(uuid "b2a5b437-ff64-4046-b48b-580eae91eb0c")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "C30")
 					(unit 1)
@@ -8007,7 +8153,7 @@
 			(uuid "f4db39a6-7287-4a40-8e90-41a8f81e63fc")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#P+03")
 					(unit 1)
@@ -8085,7 +8231,7 @@
 			(uuid "2c03e1e8-1bb0-4559-9b5f-b118e1722b5f")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND044")
 					(unit 1)
@@ -8163,7 +8309,7 @@
 			(uuid "ccd187f3-0e58-4ee0-931c-ec4c8b775e02")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND046")
 					(unit 1)
@@ -8247,7 +8393,29 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS100013"
+		(property "LCSC" ""
+			(at 247.65 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS Description" "OTHER:   RFID Reader ID-12LA (125 kHz)   [ID-12LA] [TH]"
+			(at 247.65 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS PN" "OEPS100013"
 			(at 247.65 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -8292,7 +8460,7 @@
 			(uuid "3ce63641-faa2-4ab9-87f1-fdd62f300483")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "U1")
 					(unit 1)
@@ -8370,7 +8538,7 @@
 			(uuid "4f4e9cc2-7140-4b3d-bf42-c217300efe85")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND019")
 					(unit 1)
@@ -8380,7 +8548,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 207.01 149.86 0)
+		(at 207.01 147.32 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -8389,10 +8557,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "39669197-aed1-4567-9803-1aa6ddfd5fb0")
 		(property "Reference" "#GND16"
-			(at 207.01 149.86 0)
+			(at 207.01 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8403,7 +8570,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 207.01 154.94 0)
+			(at 203.962 148.082 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8413,7 +8580,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 149.86 0)
+			(at 207.01 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8424,7 +8591,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 149.86 0)
+			(at 207.01 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8435,7 +8602,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 207.01 149.86 0)
+			(at 207.01 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8449,7 +8616,7 @@
 			(uuid "8281552e-66fb-465e-9c26-40c8945daff4")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND16")
 					(unit 1)
@@ -8514,18 +8681,7 @@
 				)
 			)
 		)
-		(property "Description" "MOSFET P-CH 60V 1.7A"
-			(at 63.5 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "OEPSPN" "OEPS060004"
+		(property "Description" "TRANSISTOR:   MOSFET P-CH 60V 1.7A   [NTF2955T1G] [SOT-223]"
 			(at 63.5 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -8558,6 +8714,39 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 63.5 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS Description" "TRANSISTOR:   MOSFET P-CH 60V 1.7A   [NTF2955T1G] [SOT-223]"
+			(at 63.5 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS PN" "OEPS060004"
+			(at 63.5 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9be15439-0c9f-473e-baf3-0b12eb88833e")
 		)
@@ -8571,7 +8760,7 @@
 			(uuid "fcef0b09-4afa-4f33-8630-365050825cb0")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "Q2")
 					(unit 1)
@@ -8635,7 +8824,7 @@
 				)
 			)
 		)
-		(property "Description" "HEADER 2.00MM straight 1x7POS GOLD"
+		(property "Description" "CONNECTOR:   HEADER 2.00MM straight 1x7POS GOLD   [NPPN071BFLC-RC] [SMD]"
 			(at 278.13 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -8646,7 +8835,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS070019"
+		(property "MPN" "NPPN071BFLC-RC"
 			(at 278.13 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -8657,7 +8846,29 @@
 				)
 			)
 		)
-		(property "MPN" "‎NPPN071BFLC-RC‎"
+		(property "LCSC" ""
+			(at 278.13 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS Description" "CONNECTOR:   HEADER 2.00MM straight 1x7POS GOLD   [NPPN071BFLC-RC] [SMD]"
+			(at 278.13 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS PN" "OEPS070019"
 			(at 278.13 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -8690,7 +8901,7 @@
 			(uuid "4abca6df-10cd-4ced-a95e-e5be558c97e4")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "J4")
 					(unit 1)
@@ -8754,7 +8965,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 39Ω ±1% 0.250W"
+		(property "Description" "RESISTOR:   SMD 0402 39Ω ±1% 0.250W   [RCS040239R0FKED] [SMD]"
 			(at 66.04 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -8776,7 +8987,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS020034"
+		(property "Tolerance" "±1%"
 			(at 66.04 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -8787,7 +8998,29 @@
 				)
 			)
 		)
-		(property "Tolerance" "±1%"
+		(property "LCSC" ""
+			(at 66.04 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS Description" "RESISTOR:   SMD 0402 39Ω ±1% 0.250W   [RCS040239R0FKED] [SMD]"
+			(at 66.04 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS PN" "OEPS020034"
 			(at 66.04 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -8805,7 +9038,7 @@
 			(uuid "3c005253-c139-4766-bcdb-f3cb41a354b1")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "R7")
 					(unit 1)
@@ -8870,7 +9103,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 26.67 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -8882,17 +9115,6 @@
 			)
 		)
 		(property "MPN" "CGA2B3X7R1H104K050BB"
-			(at 26.67 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "OEPSPN" "OEPS010016"
 			(at 26.67 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -8936,6 +9158,39 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 26.67 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
+			(at 26.67 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS PN" "OEPS010016"
+			(at 26.67 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "58cdfc12-b78b-4f2a-b158-e332e9c5b460")
 		)
@@ -8943,7 +9198,7 @@
 			(uuid "1780d7ad-3d15-4c62-928c-396926dc8796")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "C12")
 					(unit 1)
@@ -9021,7 +9276,7 @@
 			(uuid "f96a2584-715e-48f3-8f20-fa61f2ff24ec")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND037")
 					(unit 1)
@@ -9031,7 +9286,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 186.69 80.01 0)
+		(at 186.69 78.74 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -9042,7 +9297,7 @@
 		(dnp no)
 		(uuid "55762c8c-f30b-4bdb-96e8-3f5d4b756f6a")
 		(property "Reference" "C22"
-			(at 190.5 78.105 0)
+			(at 190.5 76.835 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9053,7 +9308,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 190.5 81.915 0)
+			(at 190.5 80.645 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9064,7 +9319,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 186.69 80.01 0)
+			(at 186.69 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9075,7 +9330,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 80.01 0)
+			(at 186.69 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9085,8 +9340,8 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
-			(at 186.69 80.01 0)
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
+			(at 186.69 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9097,7 +9352,7 @@
 			)
 		)
 		(property "MPN" "CGA2B3X7R1H104K050BB"
-			(at 186.69 80.01 0)
+			(at 186.69 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9108,19 +9363,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "OEPSPN" "OEPS010016"
-			(at 186.69 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "TempCo" "X7R"
-			(at 186.69 80.01 0)
+			(at 186.69 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9131,7 +9375,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 186.69 80.01 0)
+			(at 186.69 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9142,7 +9386,40 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 186.69 80.01 0)
+			(at 186.69 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 186.69 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
+			(at 186.69 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS PN" "OEPS010016"
+			(at 186.69 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9159,7 +9436,7 @@
 			(uuid "3152a0c8-9520-4bc0-8216-5db21de1539e")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "C22")
 					(unit 1)
@@ -9180,7 +9457,7 @@
 		(dnp no)
 		(uuid "5813b003-ae95-4abd-9fc9-cea8d86281d4")
 		(property "Reference" "IC5"
-			(at 173.99 95.758 0)
+			(at 171.958 94.234 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9190,7 +9467,7 @@
 			)
 		)
 		(property "Value" "SN74LVC1G125DBVT"
-			(at 176.53 99.314 0)
+			(at 177.8 98.298 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9222,7 +9499,7 @@
 				)
 			)
 		)
-		(property "Description" "BUFFER NON-INVERT 1CH 3-STATE"
+		(property "Description" "IC:   BUFFER NON-INVERT 1CH 3-STATE   [SN74LVC1G125DBVT] [SOT-23-5]"
 			(at 176.53 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -9243,17 +9520,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "OEPSPN" "OEPS080029"
-			(at 176.53 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "TempCo" ""
@@ -9289,6 +9555,39 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 176.53 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS Description" "IC:   BUFFER NON-INVERT 1CH 3-STATE   [SN74LVC1G125DBVT] [SOT-23-5]"
+			(at 176.53 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS PN" "OEPS080029"
+			(at 176.53 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "e1376744-25a2-4ca1-9d2f-b18e02d8270a")
 		)
@@ -9305,7 +9604,7 @@
 			(uuid "ee6c3430-312f-4e07-b7cb-3dec9d43aacb")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "IC5")
 					(unit 1)
@@ -9369,7 +9668,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 1kΩ ±1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 1kΩ ±1% 0.063W   [CRCW04021K00FKED] [SMD]"
 			(at 148.59 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -9391,7 +9690,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS020027"
+		(property "Tolerance" "±1%"
 			(at 148.59 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -9402,7 +9701,29 @@
 				)
 			)
 		)
-		(property "Tolerance" "±1%"
+		(property "LCSC" ""
+			(at 148.59 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS Description" "RESISTOR:   SMD 0402 1kΩ ±1% 0.063W   [CRCW04021K00FKED] [SMD]"
+			(at 148.59 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS PN" "OEPS020027"
 			(at 148.59 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -9420,7 +9741,7 @@
 			(uuid "a860e51b-e840-43e6-b103-3b9f4191be56")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "R8")
 					(unit 1)
@@ -9484,7 +9805,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 109.22 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -9496,17 +9817,6 @@
 			)
 		)
 		(property "MPN" "CGA2B3X7R1H104K050BB"
-			(at 109.22 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "OEPSPN" "OEPS010016"
 			(at 109.22 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -9550,6 +9860,39 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 109.22 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
+			(at 109.22 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS PN" "OEPS010016"
+			(at 109.22 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3ce0de83-d3b5-45f2-906e-12278812d149")
 		)
@@ -9557,7 +9900,7 @@
 			(uuid "b4c1ab9c-4d99-4f88-9bec-2acd27420337")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "C15")
 					(unit 1)
@@ -9621,7 +9964,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 116.84 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -9633,17 +9976,6 @@
 			)
 		)
 		(property "MPN" "CGA2B3X7R1H104K050BB"
-			(at 116.84 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "OEPSPN" "OEPS010016"
 			(at 116.84 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -9687,6 +10019,39 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 116.84 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
+			(at 116.84 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS PN" "OEPS010016"
+			(at 116.84 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "72e4d62a-5641-4855-9182-de298ac734cb")
 		)
@@ -9694,7 +10059,7 @@
 			(uuid "eb5c2d88-419b-4abe-ae3f-4e7520c0bfbd")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "C16")
 					(unit 1)
@@ -9759,7 +10124,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 93.98 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -9771,17 +10136,6 @@
 			)
 		)
 		(property "MPN" "CGA2B3X7R1H104K050BB"
-			(at 93.98 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "OEPSPN" "OEPS010016"
 			(at 93.98 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -9825,6 +10179,39 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 93.98 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
+			(at 93.98 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS PN" "OEPS010016"
+			(at 93.98 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "842d6ae7-370c-459f-9711-ea3ecec27762")
 		)
@@ -9832,7 +10219,7 @@
 			(uuid "e16779e6-43a2-4098-95bd-093d84bb47ea")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "C13")
 					(unit 1)
@@ -9910,7 +10297,7 @@
 			(uuid "308ab45d-7a9f-4eea-94be-9f4235795b17")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND60")
 					(unit 1)
@@ -9987,7 +10374,7 @@
 			(uuid "71446c64-afe2-49cb-ba43-bbe6b07ca4c5")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#PWR03")
 					(unit 1)
@@ -10065,7 +10452,7 @@
 			(uuid "de655fd0-71a6-43e7-aaef-b9220a5d4696")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND8")
 					(unit 1)
@@ -10143,7 +10530,7 @@
 			(uuid "80174245-a540-413f-a7c2-277051148117")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND030")
 					(unit 1)
@@ -10208,7 +10595,7 @@
 				)
 			)
 		)
-		(property "Description" "LED 0603 Red 635nm 20mA"
+		(property "Description" "DIODE:   LED 0603 Red 635nm 20mA   [5975004407F] [0603]"
 			(at 110.49 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -10230,7 +10617,29 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS030006"
+		(property "LCSC" ""
+			(at 110.49 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS Description" "DIODE:   LED 0603 Red 635nm 20mA   [5975004407F] [0603]"
+			(at 110.49 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS PN" "OEPS030006"
 			(at 110.49 153.67 90)
 			(hide yes)
 			(show_name no)
@@ -10248,7 +10657,7 @@
 			(uuid "7075c7cc-35d9-4cbb-903d-fad8ae40eb68")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "D1")
 					(unit 1)
@@ -10327,7 +10736,7 @@
 			(uuid "1e918789-be3f-403a-aa4f-f4778464bdf8")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND047")
 					(unit 1)
@@ -10392,7 +10801,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 10kΩ ±1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 10kΩ ±1% 0.063W   [CRCW040210K0FKED] [SMD]"
 			(at 191.77 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -10413,17 +10822,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "OEPSPN" "OEPS020030"
-			(at 191.77 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "TempCo" ""
@@ -10459,6 +10857,39 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 191.77 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS Description" "RESISTOR:   SMD 0402 10kΩ ±1% 0.063W   [CRCW040210K0FKED] [SMD]"
+			(at 191.77 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS PN" "OEPS020030"
+			(at 191.77 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "fb803101-d59f-4971-93ec-47d27d70211d")
 		)
@@ -10466,7 +10897,7 @@
 			(uuid "882b55aa-e34a-4fe7-9d93-cc8593aaf2ee")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "R11")
 					(unit 1)
@@ -10544,7 +10975,7 @@
 			(uuid "805e0cc9-edb6-4354-9b0a-6dce3c786041")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND50")
 					(unit 1)
@@ -10621,7 +11052,7 @@
 			(uuid "6a96cea8-275d-43c5-8fe2-25a954a3e9b7")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#P+05")
 					(unit 1)
@@ -10685,7 +11116,7 @@
 				)
 			)
 		)
-		(property "Description" "MCU ATXMEGA A4U 8bits 32KB"
+		(property "Description" "IC:   MCU ATXMEGA A4U 8bits 32KB   [ATXMEGA32A4U-A] [TQFP-44]"
 			(at 86.36 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -10707,7 +11138,29 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS080012"
+		(property "LCSC" ""
+			(at 86.36 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS Description" "IC:   MCU ATXMEGA A4U 8bits 32KB   [ATXMEGA32A4U-A] [TQFP-44]"
+			(at 86.36 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS PN" "OEPS080012"
 			(at 86.36 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -10851,7 +11304,7 @@
 			(uuid "1b5353d5-d551-4932-a76e-e96f493eeb43")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "IC3")
 					(unit 1)
@@ -10929,7 +11382,7 @@
 			(uuid "fb4c3730-bab2-4987-b3e5-f00c0257e2c7")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND6")
 					(unit 1)
@@ -10939,7 +11392,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 175.26 132.08 0)
+		(at 166.37 134.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10950,7 +11403,7 @@
 		(fields_autoplaced yes)
 		(uuid "9059e8b6-48f7-46af-9037-53edfb8dd57d")
 		(property "Reference" "C21"
-			(at 171.45 130.175 0)
+			(at 162.56 132.715 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10961,7 +11414,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 171.45 133.985 0)
+			(at 162.56 136.525 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10972,7 +11425,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 176.2252 135.89 0)
+			(at 167.3352 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10983,7 +11436,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 132.08 0)
+			(at 166.37 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10993,8 +11446,8 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
-			(at 175.26 132.08 0)
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
+			(at 166.37 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11005,18 +11458,7 @@
 			)
 		)
 		(property "MPN" "CGA2B3X7R1H104K050BB"
-			(at 175.26 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "OEPSPN" "OEPS010016"
-			(at 175.26 132.08 0)
+			(at 166.37 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11027,7 +11469,7 @@
 			)
 		)
 		(property "TempCo" "X7R"
-			(at 175.26 132.08 0)
+			(at 166.37 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11038,7 +11480,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 175.26 132.08 0)
+			(at 166.37 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11049,7 +11491,40 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 175.26 132.08 0)
+			(at 166.37 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 166.37 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
+			(at 166.37 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS PN" "OEPS010016"
+			(at 166.37 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11066,7 +11541,7 @@
 			(uuid "4ed322fa-a3d5-4759-a89b-429b589723a4")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "C21")
 					(unit 1)
@@ -11131,7 +11606,7 @@
 				)
 			)
 		)
-		(property "Description" "LED 0603 Red 635nm 20mA"
+		(property "Description" "DIODE:   LED 0603 Red 635nm 20mA   [5975004407F] [0603]"
 			(at 148.59 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -11153,7 +11628,29 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS030006"
+		(property "LCSC" ""
+			(at 148.59 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS Description" "DIODE:   LED 0603 Red 635nm 20mA   [5975004407F] [0603]"
+			(at 148.59 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS PN" "OEPS030006"
 			(at 148.59 153.67 90)
 			(hide yes)
 			(show_name no)
@@ -11171,7 +11668,7 @@
 			(uuid "bda74951-cba3-49c2-8b3c-20eafec7b2f7")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "D4")
 					(unit 1)
@@ -11236,7 +11733,7 @@
 				)
 			)
 		)
-		(property "Description" "LED 0603 Red 635nm 20mA"
+		(property "Description" "DIODE:   LED 0603 Red 635nm 20mA   [5975004407F] [0603]"
 			(at 123.19 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -11258,7 +11755,29 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS030006"
+		(property "LCSC" ""
+			(at 123.19 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS Description" "DIODE:   LED 0603 Red 635nm 20mA   [5975004407F] [0603]"
+			(at 123.19 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS PN" "OEPS030006"
 			(at 123.19 153.67 90)
 			(hide yes)
 			(show_name no)
@@ -11276,7 +11795,7 @@
 			(uuid "0de3b1cc-7a1f-4078-b29b-99207fdddc79")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "D2")
 					(unit 1)
@@ -11354,7 +11873,7 @@
 			(uuid "7aa662d2-18a2-4901-94c6-8ac8f5b418db")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND035")
 					(unit 1)
@@ -11432,7 +11951,7 @@
 			(uuid "9c8a2b5f-5dff-41b8-9da4-9a0d9902cffa")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#P+014")
 					(unit 1)
@@ -11510,7 +12029,7 @@
 			(uuid "5166404a-6150-4f8e-a880-7faf5fbff756")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND5")
 					(unit 1)
@@ -11574,7 +12093,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 1kΩ ±1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 1kΩ ±1% 0.063W   [CRCW04021K00FKED] [SMD]"
 			(at 45.72 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -11596,7 +12115,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS020027"
+		(property "Tolerance" "±1%"
 			(at 45.72 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -11607,7 +12126,29 @@
 				)
 			)
 		)
-		(property "Tolerance" "±1%"
+		(property "LCSC" ""
+			(at 45.72 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS Description" "RESISTOR:   SMD 0402 1kΩ ±1% 0.063W   [CRCW04021K00FKED] [SMD]"
+			(at 45.72 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS PN" "OEPS020027"
 			(at 45.72 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -11625,7 +12166,7 @@
 			(uuid "6e4f4e37-e378-4e94-8ffd-4b21418ba57c")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "R6")
 					(unit 1)
@@ -11688,7 +12229,7 @@
 				)
 			)
 		)
-		(property "Description" "XTAL OSC TCXO 32MHz HCMOS 2.5ppm"
+		(property "Description" "IC:   XTAL OSC TCXO 32MHz HCMOS 2.5ppm   [O 32,0-JT32C-A-K-3,3-LF] [4-SMD]"
 			(at 39.37 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -11710,7 +12251,29 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS080014"
+		(property "LCSC" ""
+			(at 39.37 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS Description" "IC:   XTAL OSC TCXO 32MHz HCMOS 2.5ppm   [O 32,0-JT32C-A-K-3,3-LF] [4-SMD]"
+			(at 39.37 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS PN" "OEPS080014"
 			(at 39.37 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -11734,7 +12297,7 @@
 			(uuid "198729f9-0af5-482b-956d-8b17902f7165")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "X1")
 					(unit 1)
@@ -11812,7 +12375,7 @@
 			(uuid "543f320e-0fca-46b3-b8ed-77fca603696c")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND032")
 					(unit 1)
@@ -11877,7 +12440,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "BJT NPN 45V 0.5A"
+		(property "Description" "TRANSISTOR:   BJT NPN 45V 0.5A   [BC817-40W-7] [SOT-323]"
 			(at 43.18 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -11899,7 +12462,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS060005"
+		(property "Voltage" "45V"
 			(at 43.18 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -11910,7 +12473,29 @@
 				)
 			)
 		)
-		(property "Voltage" "45V"
+		(property "LCSC" ""
+			(at 43.18 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS Description" "TRANSISTOR:   BJT NPN 45V 0.5A   [BC817-40W-7] [SOT-323]"
+			(at 43.18 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS PN" "OEPS060005"
 			(at 43.18 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -11931,7 +12516,7 @@
 			(uuid "e09e7164-f005-4407-b784-8f3b55712cd8")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "Q1")
 					(unit 1)
@@ -12010,7 +12595,7 @@
 			(uuid "73111598-122a-4571-a6ab-e676915e04b0")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND65")
 					(unit 1)
@@ -12089,7 +12674,7 @@
 			(uuid "41fa68bf-77e2-424d-a011-ee23432bcbd6")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND1")
 					(unit 1)
@@ -12154,7 +12739,7 @@
 				)
 			)
 		)
-		(property "Description" "TERMINAL BLOCK 2.54MM 2POS side entry"
+		(property "Description" "CONNECTOR:   TERMINAL BLOCK 2.54MM 2POS side entry   [282834-2] [TH]"
 			(at 214.63 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -12176,7 +12761,29 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS070020"
+		(property "LCSC" ""
+			(at 214.63 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS Description" "CONNECTOR:   TERMINAL BLOCK 2.54MM 2POS side entry   [282834-2] [TH]"
+			(at 214.63 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS PN" "OEPS070020"
 			(at 214.63 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -12194,7 +12801,7 @@
 			(uuid "0fca8a8e-8e04-4ca5-aa5b-f5ed03092375")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "J2")
 					(unit 1)
@@ -12204,7 +12811,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 175.26 135.89 0)
+		(at 166.37 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12214,7 +12821,7 @@
 		(dnp no)
 		(uuid "c4407798-2696-4d0d-93ae-ec2f136c8b97")
 		(property "Reference" "#GND15"
-			(at 175.26 135.89 0)
+			(at 166.37 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12225,7 +12832,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 175.006 139.446 0)
+			(at 166.116 141.986 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12235,7 +12842,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 135.89 0)
+			(at 166.37 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12246,7 +12853,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 135.89 0)
+			(at 166.37 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12257,7 +12864,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 175.26 135.89 0)
+			(at 166.37 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12271,7 +12878,7 @@
 			(uuid "7eeb8afe-be1f-4e7c-896e-dd28a83c14ca")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND15")
 					(unit 1)
@@ -12334,18 +12941,7 @@
 				)
 			)
 		)
-		(property "Description" "HEADER 2.00MM straight 1x5POS GOLD"
-			(at 215.9 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "OEPSPN" "OEPS070018"
+		(property "Description" "CONNECTOR:   HEADER 2.00MM straight 1x5POS GOLD   [NPPN051BFLD-RC] [SMD]"
 			(at 215.9 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -12357,6 +12953,39 @@
 			)
 		)
 		(property "MPN" "NPPN051BFLD-RC"
+			(at 215.9 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 215.9 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS Description" "CONNECTOR:   HEADER 2.00MM straight 1x5POS GOLD   [NPPN051BFLD-RC] [SMD]"
+			(at 215.9 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS PN" "OEPS070018"
 			(at 215.9 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -12383,7 +13012,7 @@
 			(uuid "24cd5350-b2ab-44b9-8883-b747547abf09")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "J3")
 					(unit 1)
@@ -12447,7 +13076,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 101.6 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -12459,17 +13088,6 @@
 			)
 		)
 		(property "MPN" "CGA2B3X7R1H104K050BB"
-			(at 101.6 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "OEPSPN" "OEPS010016"
 			(at 101.6 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -12513,6 +13131,39 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 101.6 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
+			(at 101.6 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS PN" "OEPS010016"
+			(at 101.6 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "44f08c27-efc6-479a-b28a-90f54567a65d")
 		)
@@ -12520,7 +13171,7 @@
 			(uuid "720af3c6-0c52-46e8-ba61-2345ed307e4f")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "C14")
 					(unit 1)
@@ -12598,7 +13249,7 @@
 			(uuid "9b610bce-5d99-48e5-93af-a6dcda963838")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#P+013")
 					(unit 1)
@@ -12677,7 +13328,7 @@
 			(uuid "858400c2-dafe-40cd-b645-94210f356147")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND10")
 					(unit 1)
@@ -12741,7 +13392,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 1kΩ ±1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 1kΩ ±1% 0.063W   [CRCW04021K00FKED] [SMD]"
 			(at 135.89 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -12763,7 +13414,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS020027"
+		(property "Tolerance" "±1%"
 			(at 135.89 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -12774,7 +13425,29 @@
 				)
 			)
 		)
-		(property "Tolerance" "±1%"
+		(property "LCSC" ""
+			(at 135.89 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS Description" "RESISTOR:   SMD 0402 1kΩ ±1% 0.063W   [CRCW04021K00FKED] [SMD]"
+			(at 135.89 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS PN" "OEPS020027"
 			(at 135.89 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -12792,7 +13465,7 @@
 			(uuid "ed3c3087-81f9-4b0c-8434-19b8ca1c775d")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "R3")
 					(unit 1)
@@ -12802,7 +13475,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 181.61 154.94 0)
+		(at 181.61 156.21 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -12811,10 +13484,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e58c3ca3-496b-4226-a43e-2a02e1b445a4")
 		(property "Reference" "#GND014"
-			(at 181.61 154.94 0)
+			(at 181.61 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12825,17 +13497,18 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 181.61 160.02 0)
+			(at 179.832 156.972 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 154.94 0)
+			(at 181.61 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12846,7 +13519,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 154.94 0)
+			(at 181.61 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12857,7 +13530,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 181.61 154.94 0)
+			(at 181.61 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12871,7 +13544,7 @@
 			(uuid "205999e9-5291-44e0-82b6-7c545d8239af")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND014")
 					(unit 1)
@@ -12948,7 +13621,7 @@
 			(uuid "ee3ad251-d047-412d-bcba-172a2c64e6c1")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#P+23")
 					(unit 1)
@@ -12958,7 +13631,7 @@
 	)
 	(symbol
 		(lib_id "harp rfid reader-eagle-import:GND")
-		(at 186.69 86.36 0)
+		(at 186.69 85.09 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -12969,7 +13642,7 @@
 		(dnp no)
 		(uuid "e7763c04-e5ee-4fe7-a9ff-b55bc42b5e18")
 		(property "Reference" "#GND045"
-			(at 186.69 86.36 0)
+			(at 186.69 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12980,7 +13653,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 186.69 87.63 0)
+			(at 186.69 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12990,7 +13663,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 86.36 0)
+			(at 186.69 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13001,7 +13674,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 86.36 0)
+			(at 186.69 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13012,7 +13685,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 186.69 86.36 0)
+			(at 186.69 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13026,7 +13699,7 @@
 			(uuid "4f6646f0-44d9-4066-a0be-457ee1cb850c")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND045")
 					(unit 1)
@@ -13091,7 +13764,7 @@
 				)
 			)
 		)
-		(property "Description" "LED 0603 Red 635nm 20mA"
+		(property "Description" "DIODE:   LED 0603 Red 635nm 20mA   [5975004407F] [0603]"
 			(at 135.89 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -13113,7 +13786,29 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS030006"
+		(property "LCSC" ""
+			(at 135.89 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS Description" "DIODE:   LED 0603 Red 635nm 20mA   [5975004407F] [0603]"
+			(at 135.89 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS PN" "OEPS030006"
 			(at 135.89 153.67 90)
 			(hide yes)
 			(show_name no)
@@ -13131,7 +13826,7 @@
 			(uuid "9bb093cf-a240-4c9b-b4a3-945045557187")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "D3")
 					(unit 1)
@@ -13195,7 +13890,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 1kΩ ±1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 1kΩ ±1% 0.063W   [CRCW04021K00FKED] [SMD]"
 			(at 123.19 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -13217,7 +13912,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS020027"
+		(property "Tolerance" "±1%"
 			(at 123.19 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -13228,7 +13923,29 @@
 				)
 			)
 		)
-		(property "Tolerance" "±1%"
+		(property "LCSC" ""
+			(at 123.19 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS Description" "RESISTOR:   SMD 0402 1kΩ ±1% 0.063W   [CRCW04021K00FKED] [SMD]"
+			(at 123.19 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS PN" "OEPS020027"
 			(at 123.19 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -13246,7 +13963,7 @@
 			(uuid "98257380-0a62-46d7-89a2-0b45787c3d85")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "R2")
 					(unit 1)
@@ -13323,7 +14040,7 @@
 			(uuid "b0ed56d5-f352-4470-a3cd-838db3fdd7cb")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#P+010")
 					(unit 1)
@@ -13385,7 +14102,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 10kΩ ±1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 10kΩ ±1% 0.063W   [CRCW040210K0FKED] [SMD]"
 			(at 30.48 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -13407,7 +14124,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS020030"
+		(property "Tolerance" "±1%"
 			(at 30.48 163.83 90)
 			(hide yes)
 			(show_name no)
@@ -13418,7 +14135,29 @@
 				)
 			)
 		)
-		(property "Tolerance" "±1%"
+		(property "LCSC" ""
+			(at 30.48 163.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS Description" "RESISTOR:   SMD 0402 10kΩ ±1% 0.063W   [CRCW040210K0FKED] [SMD]"
+			(at 30.48 163.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS PN" "OEPS020030"
 			(at 30.48 163.83 90)
 			(hide yes)
 			(show_name no)
@@ -13436,7 +14175,7 @@
 			(uuid "64b6a210-44a4-4fb4-bad8-79e5c3801a49")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "R5")
 					(unit 1)
@@ -13514,7 +14253,7 @@
 			(uuid "195250e0-5edd-471a-b668-ddbf7285c8a7")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND23")
 					(unit 1)
@@ -13592,7 +14331,7 @@
 			(uuid "2c8570c1-6d8f-438d-98bb-f6838aba243c")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND028")
 					(unit 1)
@@ -13602,7 +14341,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 175.26 123.19 0)
+		(at 166.37 125.73 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -13613,7 +14352,7 @@
 		(dnp no)
 		(uuid "fb022413-05b7-4695-aaa1-8b8196d2871e")
 		(property "Reference" "#P+6"
-			(at 175.26 123.19 0)
+			(at 166.37 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13624,7 +14363,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 172.974 119.38 0)
+			(at 164.084 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13634,7 +14373,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 123.19 0)
+			(at 166.37 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13645,7 +14384,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 123.19 0)
+			(at 166.37 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13656,7 +14395,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 175.26 123.19 0)
+			(at 166.37 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13670,7 +14409,7 @@
 			(uuid "520afc3e-1a79-46dc-9e0d-afc72617dfe2")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#P+6")
 					(unit 1)
@@ -13735,7 +14474,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 10kΩ ±1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 10kΩ ±1% 0.063W   [CRCW040210K0FKED] [SMD]"
 			(at 190.5 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -13756,17 +14495,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "OEPSPN" "OEPS020030"
-			(at 190.5 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "TempCo" ""
@@ -13802,6 +14530,39 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 190.5 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS Description" "RESISTOR:   SMD 0402 10kΩ ±1% 0.063W   [CRCW040210K0FKED] [SMD]"
+			(at 190.5 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPS PN" "OEPS020030"
+			(at 190.5 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8fd696bd-5832-48d9-9176-7f0ea1ccc0bc")
 		)
@@ -13809,7 +14570,7 @@
 			(uuid "c6276dcb-09fe-4365-ab1c-ee9c98aaf12f")
 		)
 		(instances
-			(project "harp rfid reader"
+			(project "harp rfid reader 1.4"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "R16")
 					(unit 1)
@@ -13839,31 +14600,30 @@
 			"71304596-5b5f-4672-9758-4d8f8614eb9f" "75fe0618-01fa-4f87-b44a-c722de607d5e"
 			"794271bf-bc07-42ae-9431-1c5251da1ce8" "79d5e2c4-c754-4699-906b-9e313532ca23"
 			"7c5bbb13-13ad-4f58-97c3-d021ea73cb45" "7f3efa62-debb-4789-a8b0-280faf04aee9"
-			"8732680e-78b0-4d67-bcea-a9c3068d6d5e" "88780bc2-3a0a-41df-b187-ec88f5223f8b"
-			"8994925a-cba0-40af-8c96-8ba8a8ae1cc5" "8d5828c0-99fc-4663-ac04-28710882ba33"
-			"8ff0b728-be37-4bc9-9923-6ee6b19e6d3b" "91794da3-2cfa-42a2-bb5c-d81091d8b2dd"
-			"96178224-452b-4ae3-9c55-52b281b7b1c1" "9c15fc69-058d-4c4f-bf5b-86aba70e54d0"
-			"a20b7479-2cdc-450b-b9db-9946235d4181" "a38ef0ca-52dc-48a2-b75d-9ec1fbead5ba"
-			"a7ae0b65-37b7-49b9-b2e7-c0344ae56ee8" "aa538ebd-47da-4082-817a-1b6e2adccf23"
-			"add838e8-651b-45c8-bef7-426cc3ea0249" "b0ce5cab-2604-41ab-8754-1da6f2d2bdbd"
-			"b528842b-8f80-4695-87f4-3da72b85d3c1" "b82a2df6-fc92-47ed-9985-30b6dfbf2355"
-			"baeb5d52-24a9-47ca-933e-4199692de8b0" "bbc1ad29-3763-43ce-b6a3-fb70c2253dcd"
-			"bd2bf867-f8a0-472d-aae9-101c0587f25c" "bd99e0e4-d432-44ea-bd4f-34e78a62b6d8"
-			"beb525ec-da12-481c-8489-bdeef87d0831" "bf66972e-75bc-43c8-9570-7c4d6a800db0"
-			"c01242f9-2911-4cf8-a598-252001cc15d3" "c1956aa7-2b71-454a-a306-d79c93ea9407"
-			"c2394756-07c8-4ff7-aa03-9a0bf26c877f" "c63acd05-fd90-4297-ba40-1816ec284dfd"
-			"c7f2c11f-007a-40af-a285-8762a0a07ecf" "c84d7a87-5437-4ea2-b852-eda9447200e9"
-			"cbefe016-a232-4f80-b598-15987614c903" "cda8ba45-3f17-463c-b35c-490ea1802389"
-			"d3783ad3-56c9-450d-8ee7-bcb4aeb8419b" "d68ed113-b487-4303-a5bf-b5c0017d5bb7"
-			"da548050-2a6e-427f-95e3-9934a495e543" "dac772dd-591f-4cda-a1e4-2d8540c17563"
-			"dc607d64-e8fd-4cc3-b1ac-6a32255131b9" "e0b1d6be-e454-4afb-95d9-9bcee701622a"
-			"e0b49946-3a95-4c91-934c-788053d93bd0" "e321c090-25e3-444d-b991-c56efea15191"
-			"e498f0a5-531f-416f-99e3-b30e567a862e" "e760ce8e-9ec2-4742-9c70-aae8b1bbc63f"
-			"e7dcafac-93ff-4ee0-9b85-6e6a65749a97" "e841b7cf-18eb-4ec7-bd87-be4bfcbbb9ff"
-			"e982e989-ce05-4c4a-ad47-785d156d6751" "eadd4c33-e748-4456-8645-576ce35b2fbd"
-			"f6a168a1-4573-4c15-bf13-05b3f83c4289" "fac30ec7-d027-4426-b526-f55e8155556e"
-			"fae25766-5e03-4884-95fb-bb7a455f7b4b" "fd77a69d-64d0-487a-9a7d-9f26fea0cb0a"
-			"fe79a885-200f-4015-8ac3-53c4d43d0016"
+			"88780bc2-3a0a-41df-b187-ec88f5223f8b" "8994925a-cba0-40af-8c96-8ba8a8ae1cc5"
+			"8d5828c0-99fc-4663-ac04-28710882ba33" "8ff0b728-be37-4bc9-9923-6ee6b19e6d3b"
+			"91794da3-2cfa-42a2-bb5c-d81091d8b2dd" "96178224-452b-4ae3-9c55-52b281b7b1c1"
+			"9c15fc69-058d-4c4f-bf5b-86aba70e54d0" "a20b7479-2cdc-450b-b9db-9946235d4181"
+			"a38ef0ca-52dc-48a2-b75d-9ec1fbead5ba" "a7ae0b65-37b7-49b9-b2e7-c0344ae56ee8"
+			"aa538ebd-47da-4082-817a-1b6e2adccf23" "add838e8-651b-45c8-bef7-426cc3ea0249"
+			"b0ce5cab-2604-41ab-8754-1da6f2d2bdbd" "b528842b-8f80-4695-87f4-3da72b85d3c1"
+			"b82a2df6-fc92-47ed-9985-30b6dfbf2355" "baeb5d52-24a9-47ca-933e-4199692de8b0"
+			"bbc1ad29-3763-43ce-b6a3-fb70c2253dcd" "bd2bf867-f8a0-472d-aae9-101c0587f25c"
+			"bd99e0e4-d432-44ea-bd4f-34e78a62b6d8" "beb525ec-da12-481c-8489-bdeef87d0831"
+			"bf66972e-75bc-43c8-9570-7c4d6a800db0" "c01242f9-2911-4cf8-a598-252001cc15d3"
+			"c1956aa7-2b71-454a-a306-d79c93ea9407" "c2394756-07c8-4ff7-aa03-9a0bf26c877f"
+			"c63acd05-fd90-4297-ba40-1816ec284dfd" "c7f2c11f-007a-40af-a285-8762a0a07ecf"
+			"c84d7a87-5437-4ea2-b852-eda9447200e9" "cbefe016-a232-4f80-b598-15987614c903"
+			"cda8ba45-3f17-463c-b35c-490ea1802389" "d3783ad3-56c9-450d-8ee7-bcb4aeb8419b"
+			"d68ed113-b487-4303-a5bf-b5c0017d5bb7" "da548050-2a6e-427f-95e3-9934a495e543"
+			"dac772dd-591f-4cda-a1e4-2d8540c17563" "dc607d64-e8fd-4cc3-b1ac-6a32255131b9"
+			"e0b1d6be-e454-4afb-95d9-9bcee701622a" "e0b49946-3a95-4c91-934c-788053d93bd0"
+			"e321c090-25e3-444d-b991-c56efea15191" "e498f0a5-531f-416f-99e3-b30e567a862e"
+			"e760ce8e-9ec2-4742-9c70-aae8b1bbc63f" "e7dcafac-93ff-4ee0-9b85-6e6a65749a97"
+			"e841b7cf-18eb-4ec7-bd87-be4bfcbbb9ff" "e982e989-ce05-4c4a-ad47-785d156d6751"
+			"eadd4c33-e748-4456-8645-576ce35b2fbd" "f6a168a1-4573-4c15-bf13-05b3f83c4289"
+			"fac30ec7-d027-4426-b526-f55e8155556e" "fae25766-5e03-4884-95fb-bb7a455f7b4b"
+			"fd77a69d-64d0-487a-9a7d-9f26fea0cb0a" "fe79a885-200f-4015-8ac3-53c4d43d0016"
 		)
 	)
 )
