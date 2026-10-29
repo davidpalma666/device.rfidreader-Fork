@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "harp RFID reader")
-		(rev "1.4")
+		(rev "1.3")
 		(company "OEPS")
 	)
 	(lib_symbols
@@ -6442,7 +6442,7 @@
 			(uuid "5c6c1f88-ae61-4f8a-8efb-6757301cf4ab")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "SP1")
 					(unit 1)
@@ -6520,7 +6520,7 @@
 			(uuid "ab03e3f8-59cd-4fb6-be32-c026971fdfe4")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND033")
 					(unit 1)
@@ -6598,7 +6598,7 @@
 			(uuid "232f691b-c3d6-4295-8fa5-d19c295c5b27")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND027")
 					(unit 1)
@@ -6677,7 +6677,7 @@
 			(uuid "f9cfbdc7-dec7-4411-9ffa-97856a69635c")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND9")
 					(unit 1)
@@ -6755,7 +6755,7 @@
 			(uuid "66da175e-f36b-4b11-98d6-ff51ace8f516")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND029")
 					(unit 1)
@@ -6833,7 +6833,7 @@
 			(uuid "ca3a19e2-be54-4a5b-b84d-b868bab406a3")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#P+012")
 					(unit 1)
@@ -6991,7 +6991,7 @@
 			(uuid "f886a616-195a-452e-8764-2621c4498ba6")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "R15")
 					(unit 1)
@@ -7158,7 +7158,7 @@
 			(uuid "5c11b461-5dfc-414c-8ee2-c0057922caae")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "IC4")
 					(unit 1)
@@ -7236,7 +7236,7 @@
 			(uuid "2d91592e-52f4-44dd-b94e-c15abe7843bc")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND041")
 					(unit 1)
@@ -7373,7 +7373,7 @@
 			(uuid "5aa3cb82-1916-4d59-8a48-b0834be9af48")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "PDI0")
 					(unit 1)
@@ -7532,7 +7532,7 @@
 			(uuid "2f52da21-880c-49cd-a2c9-72d53935176d")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "R14")
 					(unit 1)
@@ -7611,7 +7611,7 @@
 			(uuid "06f38702-1be5-4a51-b305-b251d9b08d6c")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND17")
 					(unit 1)
@@ -7748,7 +7748,7 @@
 			(uuid "b0dbf479-ec24-4eae-ba83-c8c29d9f110e")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "R4")
 					(unit 1)
@@ -7916,7 +7916,7 @@
 			(uuid "06dd7f8f-e7ed-4362-8466-f9991bdbda78")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "IC10")
 					(unit 1)
@@ -8076,7 +8076,7 @@
 			(uuid "b2a5b437-ff64-4046-b48b-580eae91eb0c")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "C30")
 					(unit 1)
@@ -8153,7 +8153,7 @@
 			(uuid "f4db39a6-7287-4a40-8e90-41a8f81e63fc")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#P+03")
 					(unit 1)
@@ -8231,7 +8231,7 @@
 			(uuid "2c03e1e8-1bb0-4559-9b5f-b118e1722b5f")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND044")
 					(unit 1)
@@ -8309,7 +8309,7 @@
 			(uuid "ccd187f3-0e58-4ee0-931c-ec4c8b775e02")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND046")
 					(unit 1)
@@ -8460,7 +8460,7 @@
 			(uuid "3ce63641-faa2-4ab9-87f1-fdd62f300483")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "U1")
 					(unit 1)
@@ -8538,7 +8538,7 @@
 			(uuid "4f4e9cc2-7140-4b3d-bf42-c217300efe85")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND019")
 					(unit 1)
@@ -8616,7 +8616,7 @@
 			(uuid "8281552e-66fb-465e-9c26-40c8945daff4")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND16")
 					(unit 1)
@@ -8760,7 +8760,7 @@
 			(uuid "fcef0b09-4afa-4f33-8630-365050825cb0")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "Q2")
 					(unit 1)
@@ -8901,7 +8901,7 @@
 			(uuid "4abca6df-10cd-4ced-a95e-e5be558c97e4")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "J4")
 					(unit 1)
@@ -9038,7 +9038,7 @@
 			(uuid "3c005253-c139-4766-bcdb-f3cb41a354b1")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "R7")
 					(unit 1)
@@ -9198,7 +9198,7 @@
 			(uuid "1780d7ad-3d15-4c62-928c-396926dc8796")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "C12")
 					(unit 1)
@@ -9276,7 +9276,7 @@
 			(uuid "f96a2584-715e-48f3-8f20-fa61f2ff24ec")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND037")
 					(unit 1)
@@ -9436,7 +9436,7 @@
 			(uuid "3152a0c8-9520-4bc0-8216-5db21de1539e")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "C22")
 					(unit 1)
@@ -9604,7 +9604,7 @@
 			(uuid "ee6c3430-312f-4e07-b7cb-3dec9d43aacb")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "IC5")
 					(unit 1)
@@ -9741,7 +9741,7 @@
 			(uuid "a860e51b-e840-43e6-b103-3b9f4191be56")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "R8")
 					(unit 1)
@@ -9900,7 +9900,7 @@
 			(uuid "b4c1ab9c-4d99-4f88-9bec-2acd27420337")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "C15")
 					(unit 1)
@@ -10059,7 +10059,7 @@
 			(uuid "eb5c2d88-419b-4abe-ae3f-4e7520c0bfbd")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "C16")
 					(unit 1)
@@ -10219,7 +10219,7 @@
 			(uuid "e16779e6-43a2-4098-95bd-093d84bb47ea")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "C13")
 					(unit 1)
@@ -10297,7 +10297,7 @@
 			(uuid "308ab45d-7a9f-4eea-94be-9f4235795b17")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND60")
 					(unit 1)
@@ -10374,7 +10374,7 @@
 			(uuid "71446c64-afe2-49cb-ba43-bbe6b07ca4c5")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#PWR03")
 					(unit 1)
@@ -10452,7 +10452,7 @@
 			(uuid "de655fd0-71a6-43e7-aaef-b9220a5d4696")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND8")
 					(unit 1)
@@ -10530,7 +10530,7 @@
 			(uuid "80174245-a540-413f-a7c2-277051148117")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND030")
 					(unit 1)
@@ -10657,7 +10657,7 @@
 			(uuid "7075c7cc-35d9-4cbb-903d-fad8ae40eb68")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "D1")
 					(unit 1)
@@ -10736,7 +10736,7 @@
 			(uuid "1e918789-be3f-403a-aa4f-f4778464bdf8")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND047")
 					(unit 1)
@@ -10897,7 +10897,7 @@
 			(uuid "882b55aa-e34a-4fe7-9d93-cc8593aaf2ee")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "R11")
 					(unit 1)
@@ -10975,7 +10975,7 @@
 			(uuid "805e0cc9-edb6-4354-9b0a-6dce3c786041")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND50")
 					(unit 1)
@@ -11052,7 +11052,7 @@
 			(uuid "6a96cea8-275d-43c5-8fe2-25a954a3e9b7")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#P+05")
 					(unit 1)
@@ -11304,7 +11304,7 @@
 			(uuid "1b5353d5-d551-4932-a76e-e96f493eeb43")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "IC3")
 					(unit 1)
@@ -11382,7 +11382,7 @@
 			(uuid "fb4c3730-bab2-4987-b3e5-f00c0257e2c7")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND6")
 					(unit 1)
@@ -11541,7 +11541,7 @@
 			(uuid "4ed322fa-a3d5-4759-a89b-429b589723a4")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "C21")
 					(unit 1)
@@ -11668,7 +11668,7 @@
 			(uuid "bda74951-cba3-49c2-8b3c-20eafec7b2f7")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "D4")
 					(unit 1)
@@ -11795,7 +11795,7 @@
 			(uuid "0de3b1cc-7a1f-4078-b29b-99207fdddc79")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "D2")
 					(unit 1)
@@ -11873,7 +11873,7 @@
 			(uuid "7aa662d2-18a2-4901-94c6-8ac8f5b418db")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND035")
 					(unit 1)
@@ -11951,7 +11951,7 @@
 			(uuid "9c8a2b5f-5dff-41b8-9da4-9a0d9902cffa")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#P+014")
 					(unit 1)
@@ -12029,7 +12029,7 @@
 			(uuid "5166404a-6150-4f8e-a880-7faf5fbff756")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND5")
 					(unit 1)
@@ -12166,7 +12166,7 @@
 			(uuid "6e4f4e37-e378-4e94-8ffd-4b21418ba57c")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "R6")
 					(unit 1)
@@ -12297,7 +12297,7 @@
 			(uuid "198729f9-0af5-482b-956d-8b17902f7165")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "X1")
 					(unit 1)
@@ -12375,7 +12375,7 @@
 			(uuid "543f320e-0fca-46b3-b8ed-77fca603696c")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND032")
 					(unit 1)
@@ -12516,7 +12516,7 @@
 			(uuid "e09e7164-f005-4407-b784-8f3b55712cd8")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "Q1")
 					(unit 1)
@@ -12595,7 +12595,7 @@
 			(uuid "73111598-122a-4571-a6ab-e676915e04b0")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND65")
 					(unit 1)
@@ -12674,7 +12674,7 @@
 			(uuid "41fa68bf-77e2-424d-a011-ee23432bcbd6")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND1")
 					(unit 1)
@@ -12801,7 +12801,7 @@
 			(uuid "0fca8a8e-8e04-4ca5-aa5b-f5ed03092375")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "J2")
 					(unit 1)
@@ -12878,7 +12878,7 @@
 			(uuid "7eeb8afe-be1f-4e7c-896e-dd28a83c14ca")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND15")
 					(unit 1)
@@ -13012,7 +13012,7 @@
 			(uuid "24cd5350-b2ab-44b9-8883-b747547abf09")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "J3")
 					(unit 1)
@@ -13171,7 +13171,7 @@
 			(uuid "720af3c6-0c52-46e8-ba61-2345ed307e4f")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "C14")
 					(unit 1)
@@ -13249,7 +13249,7 @@
 			(uuid "9b610bce-5d99-48e5-93af-a6dcda963838")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#P+013")
 					(unit 1)
@@ -13328,7 +13328,7 @@
 			(uuid "858400c2-dafe-40cd-b645-94210f356147")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND10")
 					(unit 1)
@@ -13465,7 +13465,7 @@
 			(uuid "ed3c3087-81f9-4b0c-8434-19b8ca1c775d")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "R3")
 					(unit 1)
@@ -13544,7 +13544,7 @@
 			(uuid "205999e9-5291-44e0-82b6-7c545d8239af")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND014")
 					(unit 1)
@@ -13621,7 +13621,7 @@
 			(uuid "ee3ad251-d047-412d-bcba-172a2c64e6c1")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#P+23")
 					(unit 1)
@@ -13699,7 +13699,7 @@
 			(uuid "4f6646f0-44d9-4066-a0be-457ee1cb850c")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND045")
 					(unit 1)
@@ -13826,7 +13826,7 @@
 			(uuid "9bb093cf-a240-4c9b-b4a3-945045557187")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "D3")
 					(unit 1)
@@ -13963,7 +13963,7 @@
 			(uuid "98257380-0a62-46d7-89a2-0b45787c3d85")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "R2")
 					(unit 1)
@@ -14040,7 +14040,7 @@
 			(uuid "b0ed56d5-f352-4470-a3cd-838db3fdd7cb")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#P+010")
 					(unit 1)
@@ -14175,7 +14175,7 @@
 			(uuid "64b6a210-44a4-4fb4-bad8-79e5c3801a49")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "R5")
 					(unit 1)
@@ -14253,7 +14253,7 @@
 			(uuid "195250e0-5edd-471a-b668-ddbf7285c8a7")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND23")
 					(unit 1)
@@ -14331,7 +14331,7 @@
 			(uuid "2c8570c1-6d8f-438d-98bb-f6838aba243c")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#GND028")
 					(unit 1)
@@ -14409,7 +14409,7 @@
 			(uuid "520afc3e-1a79-46dc-9e0d-afc72617dfe2")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "#P+6")
 					(unit 1)
@@ -14570,7 +14570,7 @@
 			(uuid "c6276dcb-09fe-4365-ab1c-ee9c98aaf12f")
 		)
 		(instances
-			(project "harp rfid reader 1.4"
+			(project "harp rfid reader"
 				(path "/d6d17c62-f9ae-4366-9aa9-0bf189dc20a6/e9956eac-47ad-4e7f-b529-fa68591fc6ae"
 					(reference "R16")
 					(unit 1)
