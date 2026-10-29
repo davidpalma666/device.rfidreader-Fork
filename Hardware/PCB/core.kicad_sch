@@ -6955,7 +6955,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "±0.1%"
+		(property "Tolerance" ""
 			(at 168.91 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -7496,7 +7496,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "±0.1%"
+		(property "Tolerance" ""
 			(at 168.91 63.5 0)
 			(hide yes)
 			(show_name no)
