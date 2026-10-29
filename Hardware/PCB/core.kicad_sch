@@ -7020,7 +7020,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74LVC1G125DBVT"
+		(property "Value" "MC74VHC1GT125DBVT1G"
 			(at 187.452 152.146 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7031,7 +7031,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
 			(at 186.69 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -7053,7 +7053,7 @@
 				)
 			)
 		)
-		(property "Description" "IC:   BUFFER NON-INVERT 1CH 3-STATE   [SN74LVC1G125DBVT] [SOT-23-5]"
+		(property "Description" "IC:   BUFFER NON-INVERT 1CH 3-STATE   [MC74VHC1GT125DBVT1G] [SC-74A]"
 			(at 186.69 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -7064,7 +7064,7 @@
 				)
 			)
 		)
-		(property "MPN" "SN74LVC1G125DBVT"
+		(property "MPN" "MC74VHC1GT125DBVT1G"
 			(at 186.69 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -7120,7 +7120,7 @@
 				)
 			)
 		)
-		(property "OEPS Description" "IC:   BUFFER NON-INVERT 1CH 3-STATE   [SN74LVC1G125DBVT] [SOT-23-5]"
+		(property "OEPS Description" "IC:   BUFFER NON-INVERT 1CH 3-STATE   [MC74VHC1GT125DBVT1G] [SC-74A]"
 			(at 186.69 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -7131,7 +7131,7 @@
 				)
 			)
 		)
-		(property "OEPS PN" "OEPS080029"
+		(property "OEPS PN" "OEPS080169"
 			(at 186.69 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -7778,7 +7778,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74LVC1G125DBVT"
+		(property "Value" "MC74VHC1GT125DBVT1G"
 			(at 175.26 53.594 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7789,7 +7789,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
 			(at 175.26 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -7811,7 +7811,7 @@
 				)
 			)
 		)
-		(property "Description" "IC:   BUFFER NON-INVERT 1CH 3-STATE   [SN74LVC1G125DBVT] [SOT-23-5]"
+		(property "Description" "IC:   BUFFER NON-INVERT 1CH 3-STATE   [MC74VHC1GT125DBVT1G] [SC-74A]"
 			(at 175.26 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -7822,7 +7822,7 @@
 				)
 			)
 		)
-		(property "MPN" "SN74LVC1G125DBVT"
+		(property "MPN" "MC74VHC1GT125DBVT1G"
 			(at 175.26 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -7878,7 +7878,7 @@
 				)
 			)
 		)
-		(property "OEPS Description" "IC:   BUFFER NON-INVERT 1CH 3-STATE   [SN74LVC1G125DBVT] [SOT-23-5]"
+		(property "OEPS Description" "IC:   BUFFER NON-INVERT 1CH 3-STATE   [MC74VHC1GT125DBVT1G] [SC-74A]"
 			(at 175.26 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -7889,7 +7889,7 @@
 				)
 			)
 		)
-		(property "OEPS PN" "OEPS080029"
+		(property "OEPS PN" "OEPS080169"
 			(at 175.26 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -9466,7 +9466,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74LVC1G125DBVT"
+		(property "Value" "MC74VHC1GT125DBVT1G"
 			(at 177.8 98.298 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9477,7 +9477,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
 			(at 176.53 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -9499,7 +9499,7 @@
 				)
 			)
 		)
-		(property "Description" "IC:   BUFFER NON-INVERT 1CH 3-STATE   [SN74LVC1G125DBVT] [SOT-23-5]"
+		(property "Description" "IC:   BUFFER NON-INVERT 1CH 3-STATE   [MC74VHC1GT125DBVT1G] [SC-74A]"
 			(at 176.53 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -9510,7 +9510,7 @@
 				)
 			)
 		)
-		(property "MPN" "SN74LVC1G125DBVT"
+		(property "MPN" "MC74VHC1GT125DBVT1G"
 			(at 176.53 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -9566,7 +9566,7 @@
 				)
 			)
 		)
-		(property "OEPS Description" "IC:   BUFFER NON-INVERT 1CH 3-STATE   [SN74LVC1G125DBVT] [SOT-23-5]"
+		(property "OEPS Description" "IC:   BUFFER NON-INVERT 1CH 3-STATE   [MC74VHC1GT125DBVT1G] [SC-74A]"
 			(at 176.53 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -9577,7 +9577,7 @@
 				)
 			)
 		)
-		(property "OEPS PN" "OEPS080029"
+		(property "OEPS PN" "OEPS080169"
 			(at 176.53 91.44 0)
 			(hide yes)
 			(show_name no)
